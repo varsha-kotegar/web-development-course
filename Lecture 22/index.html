@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            /*Custom variable creation if I declared in root means where ever can be used*/
+            --primary-color: rgb(113, 17, 17);
+            --pr-width: 280px;
+        }
+        .container{
+            background-color: rgb(122, 228, 228);
+            height: 500px;
+            border: 2px solid greenyellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            
+            background-color: rgb(255, 225, 58);
+            height: 400px;
+            width: var(--pr-width);
+            border: 3px solid var(--primary-color);
+            margin: 5px;
+            padding: 5px;
+            /*box-shadow: -10px -10px brown ;*/
+            /*box-shadow: -10px -15px 25px rgb(116, 103, 30);*/
+            /*box-shadow: 12px 15px 2px 20px rgb(116, 103, 30);*/
+            /*box-shadow: inset 5px 5px rgb(106, 215, 17);*/
+            box-shadow: 10px 15px rgb(142, 9, 9), 15px 20px rgb(255, 227, 67);
+        }
+        #head1{
+            text-shadow: red 2px 2px 2px,green 3px 3px 2px,blue 4px 4px 2px;
+            /*text-shadow: 1px 1px 2px var(--primary-color);*/
+
+        }
+        img{
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="SLICE.png" />
+            <h2 id="head1">Welcome</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque veniam, aspernatur culpa atque nihil asperiores consectetur beatae sequi maiores facere non vel similique numquam placeat quisquam aut, labore, ex quaerat.</p>
+        </div>
+    </div>
+</body>
+</html>
