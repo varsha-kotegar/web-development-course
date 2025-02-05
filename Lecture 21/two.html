@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            border: 2px solid black;
+            background-color: bisque;
+            display: flex;
+            flex-direction: row;
+            width: 500px;
+            padding: 2px;
+        }
+        #boxright {
+            
+            background-color: #f69696;
+            border: 2px solid rgb(26, 224, 12);
+            width: 40%;
+            margin: 3px;
+            padding: 2px;
+        }
+        #boxleft {
+            
+            background-color: #94e1ef;
+            border: 2px solid rgb(9, 244, 232);
+            width: 40%;
+            margin: 3px;
+            padding: 2px;
+            display: flex;
+            flex-direction: column;
+        }
+        p{
+            border: 2px solid rgb(118, 8, 243);
+        }
+        img{
+            width: 170px;
+        }
+
+        @media (max-width:640px){
+            .container{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="boxright">
+            <p>Text 1</p>
+            <p>Text 2</p>
+        </div>
+        <div id="boxleft">
+            <img src="SLICE.png" />
+        </div>
+    </div>
+
+
+</body>
+</html>
