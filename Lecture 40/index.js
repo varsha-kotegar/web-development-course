@@ -3,7 +3,7 @@
 // if(true){
 //     console.log(age);
 // }
-
+//variabls  
 
 
 // function solve(){
