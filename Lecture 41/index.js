@@ -14,14 +14,14 @@ console.log(a);
 a += 10; 
 console.log(a);
 
-//comparision operator
+//comparision  operator
 console.log(a>b);
 console.log(5 == 5);    //true
 console.log('5' == 5);  //true
 console.log('5' === 5);  //false
 
 
-//ternory operator
+//ternory operator;
 let age = 25;
 let status1 = (age>18) ? 'Yeah, I can Vote' : 'Ahh, I can\'t vote';
 console.log(status1);
