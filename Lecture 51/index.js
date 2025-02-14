@@ -1,6 +1,6 @@
 // JS DOM Manipulation - Access/Insert/Update/Delete elements
-
-// in console after inspect
+ 
+// in console after  inspect
 
 //access
 document.getElementById("fpara");
