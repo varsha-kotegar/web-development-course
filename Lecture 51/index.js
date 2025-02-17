@@ -7,5 +7,7 @@ document.getElementById("fpara");
 document.getElementsByClassName("Mypara");
 document.getElementsByTagName("p");
 
+
+//full line will be displayed - multiple object will be displayed
 document.querySelector('#fpara');
 document.querySelectorAll('#fpara');
