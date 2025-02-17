@@ -10,6 +10,8 @@ let obj = {
     }
 };
 
+console.log(obj.name);
+
 //for-in loop
 for(let key in obj){
     console.log(key, " ", obj[key]);
